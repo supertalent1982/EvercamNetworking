@@ -1,0 +1,543 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CB48443C1B1EB4A400634802 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CB48443B1B1EB4A400634802 /* main.m */; };
+		CB48443F1B1EB4A400634802 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CB48443E1B1EB4A400634802 /* AppDelegate.m */; };
+		CB4844421B1EB4A400634802 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB4844411B1EB4A400634802 /* LoginViewController.m */; };
+		CB4844451B1EB4A400634802 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB4844431B1EB4A400634802 /* Main.storyboard */; };
+		CB4844471B1EB4A400634802 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB4844461B1EB4A400634802 /* Images.xcassets */; };
+		CB4844831B1EB8AF00634802 /* RegistrationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB4844821B1EB8AF00634802 /* RegistrationViewController.m */; };
+		CB4844C61B1EBE2A00634802 /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = CB4844881B1EBE2A00634802 /* AFHTTPRequestOperation.m */; };
+		CB4844C71B1EBE2A00634802 /* AFHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CB48448A1B1EBE2A00634802 /* AFHTTPRequestOperationManager.m */; };
+		CB4844C81B1EBE2A00634802 /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = CB48448C1B1EBE2A00634802 /* AFURLConnectionOperation.m */; };
+		CB4844C91B1EBE2A00634802 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CB48448F1B1EBE2A00634802 /* AFHTTPSessionManager.m */; };
+		CB4844CA1B1EBE2A00634802 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CB4844911B1EBE2A00634802 /* AFURLSessionManager.m */; };
+		CB4844CB1B1EBE2A00634802 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CB4844941B1EBE2A00634802 /* AFNetworkReachabilityManager.m */; };
+		CB4844CC1B1EBE2A00634802 /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = CB4844971B1EBE2A00634802 /* AFSecurityPolicy.m */; };
+		CB4844CD1B1EBE2A00634802 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = CB48449A1B1EBE2A00634802 /* AFURLRequestSerialization.m */; };
+		CB4844CE1B1EBE2A00634802 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = CB48449C1B1EBE2A00634802 /* AFURLResponseSerialization.m */; };
+		CB4844CF1B1EBE2A00634802 /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CB48449F1B1EBE2A00634802 /* AFNetworkActivityIndicatorManager.m */; };
+		CB4844D01B1EBE2A00634802 /* UIActivityIndicatorView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = CB4844A11B1EBE2A00634802 /* UIActivityIndicatorView+AFNetworking.m */; };
+		CB4844D11B1EBE2A00634802 /* UIAlertView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = CB4844A31B1EBE2A00634802 /* UIAlertView+AFNetworking.m */; };
+		CB4844D21B1EBE2A00634802 /* UIButton+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = CB4844A51B1EBE2A00634802 /* UIButton+AFNetworking.m */; };
+		CB4844D31B1EBE2A00634802 /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = CB4844A71B1EBE2A00634802 /* UIImageView+AFNetworking.m */; };
+		CB4844D41B1EBE2A00634802 /* UIProgressView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = CB4844AA1B1EBE2A00634802 /* UIProgressView+AFNetworking.m */; };
+		CB4844D51B1EBE2A00634802 /* UIRefreshControl+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = CB4844AC1B1EBE2A00634802 /* UIRefreshControl+AFNetworking.m */; };
+		CB4844D61B1EBE2A00634802 /* UIWebView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = CB4844AE1B1EBE2A00634802 /* UIWebView+AFNetworking.m */; };
+		CB4844D71B1EBE2A00634802 /* AFEvercamAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = CB4844B11B1EBE2A00634802 /* AFEvercamAPIClient.m */; };
+		CB4844D81B1EBE2A00634802 /* EvercamApiKeyPair.m in Sources */ = {isa = PBXBuildFile; fileRef = CB4844B31B1EBE2A00634802 /* EvercamApiKeyPair.m */; };
+		CB4844D91B1EBE2A00634802 /* EvercamCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = CB4844B51B1EBE2A00634802 /* EvercamCamera.m */; };
+		CB4844DA1B1EBE2A00634802 /* EvercamCameraBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = CB4844B71B1EBE2A00634802 /* EvercamCameraBuilder.m */; };
+		CB4844DB1B1EBE2A00634802 /* EvercamCameraUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = CB4844B91B1EBE2A00634802 /* EvercamCameraUtil.m */; };
+		CB4844DC1B1EBE2A00634802 /* EvercamDefaults.m in Sources */ = {isa = PBXBuildFile; fileRef = CB4844BB1B1EBE2A00634802 /* EvercamDefaults.m */; };
+		CB4844DD1B1EBE2A00634802 /* EvercamModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CB4844BD1B1EBE2A00634802 /* EvercamModel.m */; };
+		CB4844DE1B1EBE2A00634802 /* EvercamRights.m in Sources */ = {isa = PBXBuildFile; fileRef = CB4844BF1B1EBE2A00634802 /* EvercamRights.m */; };
+		CB4844DF1B1EBE2A00634802 /* EvercamShell.m in Sources */ = {isa = PBXBuildFile; fileRef = CB4844C11B1EBE2A00634802 /* EvercamShell.m */; };
+		CB4844E01B1EBE2A00634802 /* EvercamUser.m in Sources */ = {isa = PBXBuildFile; fileRef = CB4844C31B1EBE2A00634802 /* EvercamUser.m */; };
+		CB4844E11B1EBE2A00634802 /* EvercamVendor.m in Sources */ = {isa = PBXBuildFile; fileRef = CB4844C51B1EBE2A00634802 /* EvercamVendor.m */; };
+		CB4844E31B1EBE6C00634802 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CB4844E21B1EBE6C00634802 /* Default-568h@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CB4844361B1EB4A400634802 /* EvercamNetwork Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "EvercamNetwork Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB48443A1B1EB4A400634802 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB48443B1B1EB4A400634802 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CB48443D1B1EB4A400634802 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CB48443E1B1EB4A400634802 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CB4844401B1EB4A400634802 /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		CB4844411B1EB4A400634802 /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		CB4844441B1EB4A400634802 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CB4844461B1EB4A400634802 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CB4844811B1EB8AF00634802 /* RegistrationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegistrationViewController.h; sourceTree = "<group>"; };
+		CB4844821B1EB8AF00634802 /* RegistrationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegistrationViewController.m; sourceTree = "<group>"; };
+		CB4844851B1EBE2A00634802 /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		CB4844871B1EBE2A00634802 /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
+		CB4844881B1EBE2A00634802 /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperation.m; sourceTree = "<group>"; };
+		CB4844891B1EBE2A00634802 /* AFHTTPRequestOperationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperationManager.h; sourceTree = "<group>"; };
+		CB48448A1B1EBE2A00634802 /* AFHTTPRequestOperationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperationManager.m; sourceTree = "<group>"; };
+		CB48448B1B1EBE2A00634802 /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLConnectionOperation.h; sourceTree = "<group>"; };
+		CB48448C1B1EBE2A00634802 /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLConnectionOperation.m; sourceTree = "<group>"; };
+		CB48448E1B1EBE2A00634802 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		CB48448F1B1EBE2A00634802 /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		CB4844901B1EBE2A00634802 /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
+		CB4844911B1EBE2A00634802 /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
+		CB4844931B1EBE2A00634802 /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		CB4844941B1EBE2A00634802 /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		CB4844961B1EBE2A00634802 /* AFSecurityPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFSecurityPolicy.h; sourceTree = "<group>"; };
+		CB4844971B1EBE2A00634802 /* AFSecurityPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFSecurityPolicy.m; sourceTree = "<group>"; };
+		CB4844991B1EBE2A00634802 /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		CB48449A1B1EBE2A00634802 /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		CB48449B1B1EBE2A00634802 /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		CB48449C1B1EBE2A00634802 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		CB48449E1B1EBE2A00634802 /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkActivityIndicatorManager.h; sourceTree = "<group>"; };
+		CB48449F1B1EBE2A00634802 /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkActivityIndicatorManager.m; sourceTree = "<group>"; };
+		CB4844A01B1EBE2A00634802 /* UIActivityIndicatorView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIActivityIndicatorView+AFNetworking.h"; sourceTree = "<group>"; };
+		CB4844A11B1EBE2A00634802 /* UIActivityIndicatorView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIActivityIndicatorView+AFNetworking.m"; sourceTree = "<group>"; };
+		CB4844A21B1EBE2A00634802 /* UIAlertView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+AFNetworking.h"; sourceTree = "<group>"; };
+		CB4844A31B1EBE2A00634802 /* UIAlertView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+AFNetworking.m"; sourceTree = "<group>"; };
+		CB4844A41B1EBE2A00634802 /* UIButton+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+AFNetworking.h"; sourceTree = "<group>"; };
+		CB4844A51B1EBE2A00634802 /* UIButton+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+AFNetworking.m"; sourceTree = "<group>"; };
+		CB4844A61B1EBE2A00634802 /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
+		CB4844A71B1EBE2A00634802 /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
+		CB4844A81B1EBE2A00634802 /* UIKit+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIKit+AFNetworking.h"; sourceTree = "<group>"; };
+		CB4844A91B1EBE2A00634802 /* UIProgressView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIProgressView+AFNetworking.h"; sourceTree = "<group>"; };
+		CB4844AA1B1EBE2A00634802 /* UIProgressView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIProgressView+AFNetworking.m"; sourceTree = "<group>"; };
+		CB4844AB1B1EBE2A00634802 /* UIRefreshControl+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIRefreshControl+AFNetworking.h"; sourceTree = "<group>"; };
+		CB4844AC1B1EBE2A00634802 /* UIRefreshControl+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIRefreshControl+AFNetworking.m"; sourceTree = "<group>"; };
+		CB4844AD1B1EBE2A00634802 /* UIWebView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWebView+AFNetworking.h"; sourceTree = "<group>"; };
+		CB4844AE1B1EBE2A00634802 /* UIWebView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWebView+AFNetworking.m"; sourceTree = "<group>"; };
+		CB4844B01B1EBE2A00634802 /* AFEvercamAPIClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFEvercamAPIClient.h; sourceTree = "<group>"; };
+		CB4844B11B1EBE2A00634802 /* AFEvercamAPIClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFEvercamAPIClient.m; sourceTree = "<group>"; };
+		CB4844B21B1EBE2A00634802 /* EvercamApiKeyPair.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EvercamApiKeyPair.h; sourceTree = "<group>"; };
+		CB4844B31B1EBE2A00634802 /* EvercamApiKeyPair.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EvercamApiKeyPair.m; sourceTree = "<group>"; };
+		CB4844B41B1EBE2A00634802 /* EvercamCamera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EvercamCamera.h; sourceTree = "<group>"; };
+		CB4844B51B1EBE2A00634802 /* EvercamCamera.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EvercamCamera.m; sourceTree = "<group>"; };
+		CB4844B61B1EBE2A00634802 /* EvercamCameraBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EvercamCameraBuilder.h; sourceTree = "<group>"; };
+		CB4844B71B1EBE2A00634802 /* EvercamCameraBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EvercamCameraBuilder.m; sourceTree = "<group>"; };
+		CB4844B81B1EBE2A00634802 /* EvercamCameraUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EvercamCameraUtil.h; sourceTree = "<group>"; };
+		CB4844B91B1EBE2A00634802 /* EvercamCameraUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EvercamCameraUtil.m; sourceTree = "<group>"; };
+		CB4844BA1B1EBE2A00634802 /* EvercamDefaults.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EvercamDefaults.h; sourceTree = "<group>"; };
+		CB4844BB1B1EBE2A00634802 /* EvercamDefaults.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EvercamDefaults.m; sourceTree = "<group>"; };
+		CB4844BC1B1EBE2A00634802 /* EvercamModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EvercamModel.h; sourceTree = "<group>"; };
+		CB4844BD1B1EBE2A00634802 /* EvercamModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EvercamModel.m; sourceTree = "<group>"; };
+		CB4844BE1B1EBE2A00634802 /* EvercamRights.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EvercamRights.h; sourceTree = "<group>"; };
+		CB4844BF1B1EBE2A00634802 /* EvercamRights.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EvercamRights.m; sourceTree = "<group>"; };
+		CB4844C01B1EBE2A00634802 /* EvercamShell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EvercamShell.h; sourceTree = "<group>"; };
+		CB4844C11B1EBE2A00634802 /* EvercamShell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EvercamShell.m; sourceTree = "<group>"; };
+		CB4844C21B1EBE2A00634802 /* EvercamUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EvercamUser.h; sourceTree = "<group>"; };
+		CB4844C31B1EBE2A00634802 /* EvercamUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EvercamUser.m; sourceTree = "<group>"; };
+		CB4844C41B1EBE2A00634802 /* EvercamVendor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EvercamVendor.h; sourceTree = "<group>"; };
+		CB4844C51B1EBE2A00634802 /* EvercamVendor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EvercamVendor.m; sourceTree = "<group>"; };
+		CB4844E21B1EBE6C00634802 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CB4844331B1EB4A400634802 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CB48442D1B1EB4A300634802 = {
+			isa = PBXGroup;
+			children = (
+				CB4844E21B1EBE6C00634802 /* Default-568h@2x.png */,
+				CB4844381B1EB4A400634802 /* EvercamNetwork Demo */,
+				CB4844371B1EB4A400634802 /* Products */,
+				CB48445F1B1EB57300634802 /* Vendor */,
+			);
+			sourceTree = "<group>";
+		};
+		CB4844371B1EB4A400634802 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CB4844361B1EB4A400634802 /* EvercamNetwork Demo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CB4844381B1EB4A400634802 /* EvercamNetwork Demo */ = {
+			isa = PBXGroup;
+			children = (
+				CB48443D1B1EB4A400634802 /* AppDelegate.h */,
+				CB48443E1B1EB4A400634802 /* AppDelegate.m */,
+				CB4844401B1EB4A400634802 /* LoginViewController.h */,
+				CB4844411B1EB4A400634802 /* LoginViewController.m */,
+				CB4844811B1EB8AF00634802 /* RegistrationViewController.h */,
+				CB4844821B1EB8AF00634802 /* RegistrationViewController.m */,
+				CB4844431B1EB4A400634802 /* Main.storyboard */,
+				CB4844461B1EB4A400634802 /* Images.xcassets */,
+				CB4844391B1EB4A400634802 /* Supporting Files */,
+			);
+			path = "EvercamNetwork Demo";
+			sourceTree = "<group>";
+		};
+		CB4844391B1EB4A400634802 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CB48443A1B1EB4A400634802 /* Info.plist */,
+				CB48443B1B1EB4A400634802 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CB48445F1B1EB57300634802 /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				CB4844841B1EBE2A00634802 /* AFNetworking */,
+				CB4844AF1B1EBE2A00634802 /* EvercamNetworking */,
+			);
+			name = Vendor;
+			sourceTree = "<group>";
+		};
+		CB4844841B1EBE2A00634802 /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				CB4844851B1EBE2A00634802 /* AFNetworking.h */,
+				CB4844861B1EBE2A00634802 /* NSURLConnection */,
+				CB48448D1B1EBE2A00634802 /* NSURLSession */,
+				CB4844921B1EBE2A00634802 /* Reachability */,
+				CB4844951B1EBE2A00634802 /* Security */,
+				CB4844981B1EBE2A00634802 /* Serialization */,
+				CB48449D1B1EBE2A00634802 /* UIKit+AFNetworking */,
+			);
+			name = AFNetworking;
+			path = ../../AFNetworking;
+			sourceTree = "<group>";
+		};
+		CB4844861B1EBE2A00634802 /* NSURLConnection */ = {
+			isa = PBXGroup;
+			children = (
+				CB4844871B1EBE2A00634802 /* AFHTTPRequestOperation.h */,
+				CB4844881B1EBE2A00634802 /* AFHTTPRequestOperation.m */,
+				CB4844891B1EBE2A00634802 /* AFHTTPRequestOperationManager.h */,
+				CB48448A1B1EBE2A00634802 /* AFHTTPRequestOperationManager.m */,
+				CB48448B1B1EBE2A00634802 /* AFURLConnectionOperation.h */,
+				CB48448C1B1EBE2A00634802 /* AFURLConnectionOperation.m */,
+			);
+			path = NSURLConnection;
+			sourceTree = "<group>";
+		};
+		CB48448D1B1EBE2A00634802 /* NSURLSession */ = {
+			isa = PBXGroup;
+			children = (
+				CB48448E1B1EBE2A00634802 /* AFHTTPSessionManager.h */,
+				CB48448F1B1EBE2A00634802 /* AFHTTPSessionManager.m */,
+				CB4844901B1EBE2A00634802 /* AFURLSessionManager.h */,
+				CB4844911B1EBE2A00634802 /* AFURLSessionManager.m */,
+			);
+			path = NSURLSession;
+			sourceTree = "<group>";
+		};
+		CB4844921B1EBE2A00634802 /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				CB4844931B1EBE2A00634802 /* AFNetworkReachabilityManager.h */,
+				CB4844941B1EBE2A00634802 /* AFNetworkReachabilityManager.m */,
+			);
+			path = Reachability;
+			sourceTree = "<group>";
+		};
+		CB4844951B1EBE2A00634802 /* Security */ = {
+			isa = PBXGroup;
+			children = (
+				CB4844961B1EBE2A00634802 /* AFSecurityPolicy.h */,
+				CB4844971B1EBE2A00634802 /* AFSecurityPolicy.m */,
+			);
+			path = Security;
+			sourceTree = "<group>";
+		};
+		CB4844981B1EBE2A00634802 /* Serialization */ = {
+			isa = PBXGroup;
+			children = (
+				CB4844991B1EBE2A00634802 /* AFURLRequestSerialization.h */,
+				CB48449A1B1EBE2A00634802 /* AFURLRequestSerialization.m */,
+				CB48449B1B1EBE2A00634802 /* AFURLResponseSerialization.h */,
+				CB48449C1B1EBE2A00634802 /* AFURLResponseSerialization.m */,
+			);
+			path = Serialization;
+			sourceTree = "<group>";
+		};
+		CB48449D1B1EBE2A00634802 /* UIKit+AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				CB48449E1B1EBE2A00634802 /* AFNetworkActivityIndicatorManager.h */,
+				CB48449F1B1EBE2A00634802 /* AFNetworkActivityIndicatorManager.m */,
+				CB4844A01B1EBE2A00634802 /* UIActivityIndicatorView+AFNetworking.h */,
+				CB4844A11B1EBE2A00634802 /* UIActivityIndicatorView+AFNetworking.m */,
+				CB4844A21B1EBE2A00634802 /* UIAlertView+AFNetworking.h */,
+				CB4844A31B1EBE2A00634802 /* UIAlertView+AFNetworking.m */,
+				CB4844A41B1EBE2A00634802 /* UIButton+AFNetworking.h */,
+				CB4844A51B1EBE2A00634802 /* UIButton+AFNetworking.m */,
+				CB4844A61B1EBE2A00634802 /* UIImageView+AFNetworking.h */,
+				CB4844A71B1EBE2A00634802 /* UIImageView+AFNetworking.m */,
+				CB4844A81B1EBE2A00634802 /* UIKit+AFNetworking.h */,
+				CB4844A91B1EBE2A00634802 /* UIProgressView+AFNetworking.h */,
+				CB4844AA1B1EBE2A00634802 /* UIProgressView+AFNetworking.m */,
+				CB4844AB1B1EBE2A00634802 /* UIRefreshControl+AFNetworking.h */,
+				CB4844AC1B1EBE2A00634802 /* UIRefreshControl+AFNetworking.m */,
+				CB4844AD1B1EBE2A00634802 /* UIWebView+AFNetworking.h */,
+				CB4844AE1B1EBE2A00634802 /* UIWebView+AFNetworking.m */,
+			);
+			path = "UIKit+AFNetworking";
+			sourceTree = "<group>";
+		};
+		CB4844AF1B1EBE2A00634802 /* EvercamNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				CB4844B01B1EBE2A00634802 /* AFEvercamAPIClient.h */,
+				CB4844B11B1EBE2A00634802 /* AFEvercamAPIClient.m */,
+				CB4844B21B1EBE2A00634802 /* EvercamApiKeyPair.h */,
+				CB4844B31B1EBE2A00634802 /* EvercamApiKeyPair.m */,
+				CB4844B41B1EBE2A00634802 /* EvercamCamera.h */,
+				CB4844B51B1EBE2A00634802 /* EvercamCamera.m */,
+				CB4844B61B1EBE2A00634802 /* EvercamCameraBuilder.h */,
+				CB4844B71B1EBE2A00634802 /* EvercamCameraBuilder.m */,
+				CB4844B81B1EBE2A00634802 /* EvercamCameraUtil.h */,
+				CB4844B91B1EBE2A00634802 /* EvercamCameraUtil.m */,
+				CB4844BA1B1EBE2A00634802 /* EvercamDefaults.h */,
+				CB4844BB1B1EBE2A00634802 /* EvercamDefaults.m */,
+				CB4844BC1B1EBE2A00634802 /* EvercamModel.h */,
+				CB4844BD1B1EBE2A00634802 /* EvercamModel.m */,
+				CB4844BE1B1EBE2A00634802 /* EvercamRights.h */,
+				CB4844BF1B1EBE2A00634802 /* EvercamRights.m */,
+				CB4844C01B1EBE2A00634802 /* EvercamShell.h */,
+				CB4844C11B1EBE2A00634802 /* EvercamShell.m */,
+				CB4844C21B1EBE2A00634802 /* EvercamUser.h */,
+				CB4844C31B1EBE2A00634802 /* EvercamUser.m */,
+				CB4844C41B1EBE2A00634802 /* EvercamVendor.h */,
+				CB4844C51B1EBE2A00634802 /* EvercamVendor.m */,
+			);
+			name = EvercamNetworking;
+			path = ../../EvercamNetworking;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CB4844351B1EB4A400634802 /* EvercamNetwork Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB4844591B1EB4A400634802 /* Build configuration list for PBXNativeTarget "EvercamNetwork Demo" */;
+			buildPhases = (
+				CB4844321B1EB4A400634802 /* Sources */,
+				CB4844331B1EB4A400634802 /* Frameworks */,
+				CB4844341B1EB4A400634802 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "EvercamNetwork Demo";
+			productName = "EvercamNetwork Demo";
+			productReference = CB4844361B1EB4A400634802 /* EvercamNetwork Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CB48442E1B1EB4A300634802 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = jinlongwei;
+				TargetAttributes = {
+					CB4844351B1EB4A400634802 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+				};
+			};
+			buildConfigurationList = CB4844311B1EB4A300634802 /* Build configuration list for PBXProject "EvercamNetwork Demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CB48442D1B1EB4A300634802;
+			productRefGroup = CB4844371B1EB4A400634802 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CB4844351B1EB4A400634802 /* EvercamNetwork Demo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CB4844341B1EB4A400634802 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB4844451B1EB4A400634802 /* Main.storyboard in Resources */,
+				CB4844471B1EB4A400634802 /* Images.xcassets in Resources */,
+				CB4844E31B1EBE6C00634802 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CB4844321B1EB4A400634802 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB4844D41B1EBE2A00634802 /* UIProgressView+AFNetworking.m in Sources */,
+				CB4844D21B1EBE2A00634802 /* UIButton+AFNetworking.m in Sources */,
+				CB4844D51B1EBE2A00634802 /* UIRefreshControl+AFNetworking.m in Sources */,
+				CB4844D11B1EBE2A00634802 /* UIAlertView+AFNetworking.m in Sources */,
+				CB4844CA1B1EBE2A00634802 /* AFURLSessionManager.m in Sources */,
+				CB4844C81B1EBE2A00634802 /* AFURLConnectionOperation.m in Sources */,
+				CB4844CB1B1EBE2A00634802 /* AFNetworkReachabilityManager.m in Sources */,
+				CB4844CD1B1EBE2A00634802 /* AFURLRequestSerialization.m in Sources */,
+				CB4844421B1EB4A400634802 /* LoginViewController.m in Sources */,
+				CB4844D31B1EBE2A00634802 /* UIImageView+AFNetworking.m in Sources */,
+				CB4844DA1B1EBE2A00634802 /* EvercamCameraBuilder.m in Sources */,
+				CB4844CE1B1EBE2A00634802 /* AFURLResponseSerialization.m in Sources */,
+				CB4844D01B1EBE2A00634802 /* UIActivityIndicatorView+AFNetworking.m in Sources */,
+				CB4844831B1EB8AF00634802 /* RegistrationViewController.m in Sources */,
+				CB4844DF1B1EBE2A00634802 /* EvercamShell.m in Sources */,
+				CB4844C71B1EBE2A00634802 /* AFHTTPRequestOperationManager.m in Sources */,
+				CB4844D91B1EBE2A00634802 /* EvercamCamera.m in Sources */,
+				CB4844E01B1EBE2A00634802 /* EvercamUser.m in Sources */,
+				CB4844D71B1EBE2A00634802 /* AFEvercamAPIClient.m in Sources */,
+				CB4844C61B1EBE2A00634802 /* AFHTTPRequestOperation.m in Sources */,
+				CB4844D81B1EBE2A00634802 /* EvercamApiKeyPair.m in Sources */,
+				CB48443F1B1EB4A400634802 /* AppDelegate.m in Sources */,
+				CB4844DB1B1EBE2A00634802 /* EvercamCameraUtil.m in Sources */,
+				CB48443C1B1EB4A400634802 /* main.m in Sources */,
+				CB4844DC1B1EBE2A00634802 /* EvercamDefaults.m in Sources */,
+				CB4844D61B1EBE2A00634802 /* UIWebView+AFNetworking.m in Sources */,
+				CB4844CC1B1EBE2A00634802 /* AFSecurityPolicy.m in Sources */,
+				CB4844E11B1EBE2A00634802 /* EvercamVendor.m in Sources */,
+				CB4844DD1B1EBE2A00634802 /* EvercamModel.m in Sources */,
+				CB4844CF1B1EBE2A00634802 /* AFNetworkActivityIndicatorManager.m in Sources */,
+				CB4844DE1B1EBE2A00634802 /* EvercamRights.m in Sources */,
+				CB4844C91B1EBE2A00634802 /* AFHTTPSessionManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CB4844431B1EB4A400634802 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB4844441B1EB4A400634802 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CB4844571B1EB4A400634802 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CB4844581B1EB4A400634802 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CB48445A1B1EB4A400634802 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "EvercamNetwork Demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CB48445B1B1EB4A400634802 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "EvercamNetwork Demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CB4844311B1EB4A300634802 /* Build configuration list for PBXProject "EvercamNetwork Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB4844571B1EB4A400634802 /* Debug */,
+				CB4844581B1EB4A400634802 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB4844591B1EB4A400634802 /* Build configuration list for PBXNativeTarget "EvercamNetwork Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB48445A1B1EB4A400634802 /* Debug */,
+				CB48445B1B1EB4A400634802 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CB48442E1B1EB4A300634802 /* Project object */;
+}

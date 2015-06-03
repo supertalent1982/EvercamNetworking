@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <Group
+      location = "group:EvercamNetworking"
+      name = "EvercamNetworking">
+      <FileRef
+         location = "group:AFEvercamAPIClient.h">
+      </FileRef>
+      <FileRef
+         location = "group:AFEvercamAPIClient.m">
+      </FileRef>
+      <FileRef
+         location = "group:EvercamApiKeyPair.h">
+      </FileRef>
+      <FileRef
+         location = "group:EvercamApiKeyPair.m">
+      </FileRef>
+      <FileRef
+         location = "group:EvercamCamera.h">
+      </FileRef>
+      <FileRef
+         location = "group:EvercamCamera.m">
+      </FileRef>
+      <FileRef
+         location = "group:EvercamCameraBuilder.h">
+      </FileRef>
+      <FileRef
+         location = "group:EvercamCameraBuilder.m">
+      </FileRef>
+      <FileRef
+         location = "group:EvercamCameraUtil.h">
+      </FileRef>
+      <FileRef
+         location = "group:EvercamCameraUtil.m">
+      </FileRef>
+      <FileRef
+         location = "group:EvercamDefaults.h">
+      </FileRef>
+      <FileRef
+         location = "group:EvercamDefaults.m">
+      </FileRef>
+      <FileRef
+         location = "group:EvercamModel.h">
+      </FileRef>
+      <FileRef
+         location = "group:EvercamModel.m">
+      </FileRef>
+      <FileRef
+         location = "group:EvercamRights.h">
+      </FileRef>
+      <FileRef
+         location = "group:EvercamRights.m">
+      </FileRef>
+      <FileRef
+         location = "group:EvercamShell.h">
+      </FileRef>
+      <FileRef
+         location = "group:EvercamShell.m">
+      </FileRef>
+      <FileRef
+         location = "group:EvercamUser.h">
+      </FileRef>
+      <FileRef
+         location = "group:EvercamUser.m">
+      </FileRef>
+      <FileRef
+         location = "group:EvercamVendor.h">
+      </FileRef>
+      <FileRef
+         location = "group:EvercamVendor.m">
+      </FileRef>
+   </Group>
+   <FileRef
+      location = "group:Examples/EvercamNetwork Demo/EvercamNetwork Demo.xcodeproj">
+   </FileRef>
+</Workspace>
