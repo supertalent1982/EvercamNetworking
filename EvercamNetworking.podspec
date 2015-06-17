@@ -6,6 +6,7 @@ Pod::Spec.new do |s|
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { "Jiang Wei" => "supertalent1982@hotmail.com" }
   s.source           = { :git => "https://github.com/supertalent1982/EvercamNetworking.git", :tag => '1.0.0' }
+  s.deprecated       = true
 
   s.platform         = :ios, '7.0'
   s.source_files     = 'EvercamNetworking/*.{h,m}'
